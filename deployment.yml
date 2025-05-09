@@ -5,7 +5,7 @@ metadata:
   labels:
     app: apache2-webserver
 spec:
-  replicas: 3
+  replicas: 30
   selector:
     matchLabels:
       app: apache2-webserver

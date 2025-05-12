@@ -52,7 +52,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: node:latest
+        image: ikajirnekar/backend-app:latest
         ports:
         - containerPort: 3000
 ---
